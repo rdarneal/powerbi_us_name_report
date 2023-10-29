@@ -1,0 +1,5721 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"namesbystate\",\"Sample File\",\"Parameter1\",\"Transform Sample File\",\"Transform File\",\"names\",\"Sample File (2)\",\"Parameter2\",\"Transform Sample File (2)\",\"Transform File (2)\",\"name_dim\",\"Calculated Measures\",\"Decode Decade\",\"states_dim\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.122.746.0 (23.10)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated",
+                      "Weight": 0.87
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "calculated_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "calculated measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "measure": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "calculated degree": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "calculated quantity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "calculated quota": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "calculated extent": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "degree": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "quota": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "extent": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "calculated amount": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calculated portion": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calculated ration": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.M_F_binary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "M_F Binary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "M_F binary": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.first_year_used": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "FirstYearUsed_F"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "first year used F": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FirstYearUsed_F": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "first yr used f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "yr first used": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "Year First Used": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.first_year_used_M": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "FirstYearUsed_M"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "first year used M": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FirstYearUsed_M": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "first yr used m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "Year First Used": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.occurrence_F": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "Occurrence_F"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "occurrence F": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Occurrence_F": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "F": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.occurrence_M": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "Occurrence_M"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "occurrence M": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Occurrence_M": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "M": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.rank_name_2019_F": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "Rank_Name_2020_F"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rank name 2019 F": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Rank_Name_2019_F": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "F": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "2019 F": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "name 2019 F": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "in 2019": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "rank nickname 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "rank title 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "rank label 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "rank tag 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "nickname 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "title 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "label 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "tag 2019 f": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "Rank in 2019": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "calculated_measure.rank_name_2019_M": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "Rank_Name_2020_M"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rank name 2019 M": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Rank_Name_2019_M": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "M": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "2019 M": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "name 2019 M": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "in 2019": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "rank nickname 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "rank title 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "rank label 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "rank tag 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "nickname 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "title 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "label 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "tag 2019 m": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "Rank in 2019": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "name.MF_binary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "MF_Binary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "MF binary": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MF_Binary": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "binary": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "second": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dual": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "double": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "name.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "name.name_sex_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "name_sex_key"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name sex key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "name_sex_key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sex key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "nickname sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "title sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "label sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "tag sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "name sex solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex recipe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex interpretation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex resolution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "name.occurrence": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "Occurrence"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "occurrence": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "incidence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "existence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manifestation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "episode": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "fact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "happening": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "event": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "incident": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "occasion": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "name.sex": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "Sex"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sex": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "masculinity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "femininity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gender": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "name.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "State"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "location": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "province": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "country": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "name.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "names",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "name_dim": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "name_dim"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name dim": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "name_dim": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dim": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "nickname dim": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "title dim": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "label dim": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "tag dim": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "faint": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "name_dim.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "name_dim",
+                    "ConceptualProperty": "Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "filter by nickname :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "filter by title :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "filter by label :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "filter by tag :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "strainer by name:": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "sifter by name:": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "sieve by name:": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "Filter by name:": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "name_dim.name_sex_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "name_dim",
+                    "ConceptualProperty": "name_sex_key"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name sex key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "name_sex_key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sex key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "nickname sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "title sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "label sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "tag sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "name sex solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex recipe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex interpretation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex resolution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "name_dim.sum_occurrence": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "Sum_Occurrence"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sum occurrence": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Sum_Occurrence": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "summation occurrence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "aggregation occurrence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "total occurrence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "aggregate occurrence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "amount occurrence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "sum incidence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "lad born": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "schoolboy born": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "lassie born": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "son born": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "Births": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Uses": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Boys Born": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Girls Born": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "namesbystate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "namesbystate": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "namesbystate.MF_binary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "MF_Binary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "MF binary": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MF_Binary": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "binary": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "second": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dual": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "double": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "namesbystate.decade_decade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "Decade.Decade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "decade.decade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "decade. era": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "decade. epoch": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "select era": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "select epoch": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "decade. period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "decade. span": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "select period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "select span": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "Select Decade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "namesbystate.max_occurrence": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calculated Measures",
+                    "ConceptualProperty": "Max_Occurrence"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "max occurrence": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Max_Occurrence": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Use": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "maximum occurrence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "max incidence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "highest usage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "peak confinement": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "max existence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "peak childbirth": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "max manifestation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "peak parturition": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "highest procedure": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "peak nativity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "Highest Use": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Peak Births": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "namesbystate.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "namesbystate.name_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "Hierarchy": "Name Hierarchy"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "nickname hierarchy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "title hierarchy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "label hierarchy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "tag hierarchy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "name ladder": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "name grading": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "name order": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "name pyramid": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ladder": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grading": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "namesbystate.name_hierarchy.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "Hierarchy": "Name Hierarchy",
+                    "HierarchyLevel": "Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "namesbystate.name_hierarchy.sex": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "Hierarchy": "Name Hierarchy",
+                    "HierarchyLevel": "Sex"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sex": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "masculinity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "femininity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gender": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "namesbystate.name_sex_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "name_sex_key"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name sex key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "name_sex_key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sex key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "nickname sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "title sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "label sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "tag sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "name sex solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex recipe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex interpretation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex resolution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "namesbystate.occurrence": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "Occurrence"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "occurrence": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "incidence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "existence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manifestation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "episode": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "fact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "happening": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "event": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "incident": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "occasion": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "namesbystate.sex": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "Sex"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sex": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "masculinity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "femininity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gender": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "namesbystate.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "State"
+                  }
+                },
+                "Hidden": true,
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "Refine Results by State": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Generated",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "Refine Result by State": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.68094
+                    }
+                  },
+                  {
+                    "By state:": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Generated",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "state or province": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "refine result by location": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "refine result by province": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "refine result by territory": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "refine result by nation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "by location :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "by province :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "by territory :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "by nation :": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "refine result by condition": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "refine result by country": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  }
+                ]
+              },
+              "namesbystate.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "namesbystate",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Select Year Range": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "Year Range": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "Select Year Range Decade": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "yr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "select yr range or decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "select yr range decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "select yr range": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "yr range": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "select year variety or decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "select year series or decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "select year assortment or decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "select year collection or decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "select year gamut or decade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "Select Year Range or Decade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "states_dim": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "states_dim"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "states dim": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "state dim": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "states_dim": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dim": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "faint": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "states_dim.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "states_dim",
+                    "ConceptualProperty": "State"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "location": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "province": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "country": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "states_dim.state_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "states_dim",
+                    "ConceptualProperty": "State_Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "state name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "State_Name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "state nickname": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "state title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "state label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "state tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "location name": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "province name": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "territory name": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "nation name": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition name": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "country name": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "table": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "table": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tabletop": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "bench": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "board": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "counter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stand": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "slab": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "desk": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stall": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "table top": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "spreadsheet": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "table.MF_binary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "MF_Binary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "MF binary": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MF_Binary": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "binary": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "second": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dual": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "double": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "table.decade_decade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "Decade.Decade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "decade.decade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "decade. era": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "decade. epoch": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "decade. period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "decade. span": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "table.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "table.name_sex_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "name_sex_key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name sex key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "name_sex_key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sex key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "nickname sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "title sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "label sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "tag sex key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "name sex solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex recipe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex interpretation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "name sex resolution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "table.occurrence": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "Occurrence"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "occurrence": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "incidence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "existence": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manifestation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "episode": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "fact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "happening": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "event": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "incident": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "occasion": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "table.sex": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "Sex"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sex": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "masculinity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "femininity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gender": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "table.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "State"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "location": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "province": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "country": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "table.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "table",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "name_dim_is_named_name": {
+                "Binding": {
+                  "ConceptualEntity": "name_dim"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "name_dim.name"
+                      },
+                      "Subject": {
+                        "Role": "name_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name_dim.name"
+                      },
+                      "Subject": {
+                        "Role": "name_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name_dim": {
+                    "Target": {
+                      "Entity": "name_dim"
+                    }
+                  },
+                  "name_dim.name": {
+                    "Target": {
+                      "Entity": "name_dim.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_MF_binary": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name.MF_binary"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.MF_binary": {
+                    "Target": {
+                      "Entity": "name.MF_binary"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_calculated_measure_rank_name_2019_F": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.rank_name_2019_F"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "calculated_measure.rank_name_2019_F": {
+                    "Target": {
+                      "Entity": "calculated_measure.rank_name_2019_F"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_calculated_measure_rank_name_2019_M": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.rank_name_2019_M"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "calculated_measure.rank_name_2019_M": {
+                    "Target": {
+                      "Entity": "calculated_measure.rank_name_2019_M"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name.name"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.name": {
+                    "Target": {
+                      "Entity": "name.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_name_dim": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name_dim"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name"
+                      },
+                      "Subject": {
+                        "Role": "name_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name_dim": {
+                    "Target": {
+                      "Entity": "name_dim"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_occurrence": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name.occurrence"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.occurrence": {
+                    "Target": {
+                      "Entity": "name.occurrence"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_sex": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name.sex"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.sex": {
+                    "Target": {
+                      "Entity": "name.sex"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_state": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name.state"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.state": {
+                    "Target": {
+                      "Entity": "name.state"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name.year"
+                      },
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.year": {
+                    "Target": {
+                      "Entity": "name.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "name_in_state": {
+                "Binding": {
+                  "ConceptualEntity": "names"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "name.state"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name": {
+                    "Target": {
+                      "Entity": "name"
+                    }
+                  },
+                  "name.state": {
+                    "Target": {
+                      "Entity": "name.state"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "name.state"
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_MF_binary": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.MF_binary"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.MF_binary": {
+                    "Target": {
+                      "Entity": "namesbystate.MF_binary"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_calculated_measure_M_F_binary": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.M_F_binary"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calculated_measure.M_F_binary": {
+                    "Target": {
+                      "Entity": "calculated_measure.M_F_binary"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_calculated_measure_first_year_used": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.first_year_used"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calculated_measure.first_year_used": {
+                    "Target": {
+                      "Entity": "calculated_measure.first_year_used"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_calculated_measure_first_year_used_M": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.first_year_used_M"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calculated_measure.first_year_used_M": {
+                    "Target": {
+                      "Entity": "calculated_measure.first_year_used_M"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_calculated_measure_occurrence_F": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.occurrence_F"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calculated_measure.occurrence_F": {
+                    "Target": {
+                      "Entity": "calculated_measure.occurrence_F"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_calculated_measure_occurrence_M": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calculated_measure.occurrence_M"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calculated_measure.occurrence_M": {
+                    "Target": {
+                      "Entity": "calculated_measure.occurrence_M"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_decade_decade": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.decade_decade"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.decade_decade": {
+                    "Target": {
+                      "Entity": "namesbystate.decade_decade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_max_occurrence": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.max_occurrence"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.max_occurrence": {
+                    "Target": {
+                      "Entity": "namesbystate.max_occurrence"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.name"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.name": {
+                    "Target": {
+                      "Entity": "namesbystate.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_name_dim": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name_dim"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate"
+                      },
+                      "Subject": {
+                        "Role": "name_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name_dim": {
+                    "Target": {
+                      "Entity": "name_dim"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_name_dim_sum_occurrence": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "name_dim.sum_occurrence"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "name_dim.sum_occurrence": {
+                    "Target": {
+                      "Entity": "name_dim.sum_occurrence"
+                    }
+                  },
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_name_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.name_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.name_hierarchy": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_occurrence": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.occurrence"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.occurrence": {
+                    "Target": {
+                      "Entity": "namesbystate.occurrence"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_sex": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.sex"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.sex": {
+                    "Target": {
+                      "Entity": "namesbystate.sex"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_states_dim": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "states_dim"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate"
+                      },
+                      "Subject": {
+                        "Role": "states_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "states_dim": {
+                    "Target": {
+                      "Entity": "states_dim"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.year"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "namesbystate.year": {
+                    "Target": {
+                      "Entity": "namesbystate.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_in_states_dim": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "states_dim"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "namesbystate"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate": {
+                    "Target": {
+                      "Entity": "namesbystate"
+                    }
+                  },
+                  "states_dim": {
+                    "Target": {
+                      "Entity": "states_dim"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "states_dim"
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_name_hierarchy_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.name_hierarchy.name"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate.name_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate.name_hierarchy": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy"
+                    }
+                  },
+                  "namesbystate.name_hierarchy.name": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_name_hierarchy_has_sex": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.name_hierarchy.sex"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate.name_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate.name_hierarchy": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy"
+                    }
+                  },
+                  "namesbystate.name_hierarchy.sex": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy.sex"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "namesbystate_name_hierarchy_name_has_namesbystate_name_hierarchy_sex": {
+                "Binding": {
+                  "ConceptualEntity": "namesbystate"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.name_hierarchy.sex"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate.name_hierarchy.name"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "namesbystate.name_hierarchy.name"
+                      },
+                      "Subject": {
+                        "Role": "namesbystate.name_hierarchy.sex"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "namesbystate.name_hierarchy.name"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "namesbystate.name_hierarchy.sex"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "namesbystate.name_hierarchy.name": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy.name"
+                    }
+                  },
+                  "namesbystate.name_hierarchy.sex": {
+                    "Target": {
+                      "Entity": "namesbystate.name_hierarchy.sex"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "states_dim_has_state": {
+                "Binding": {
+                  "ConceptualEntity": "states_dim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "states_dim.state"
+                      },
+                      "Subject": {
+                        "Role": "states_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "states_dim": {
+                    "Target": {
+                      "Entity": "states_dim"
+                    }
+                  },
+                  "states_dim.state": {
+                    "Target": {
+                      "Entity": "states_dim.state"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "states_dim_has_state_name": {
+                "Binding": {
+                  "ConceptualEntity": "states_dim"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "states_dim.state_name"
+                      },
+                      "Subject": {
+                        "Role": "states_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "states_dim": {
+                    "Target": {
+                      "Entity": "states_dim"
+                    }
+                  },
+                  "states_dim.state_name": {
+                    "Target": {
+                      "Entity": "states_dim.state_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "states_dim_in_state": {
+                "Binding": {
+                  "ConceptualEntity": "states_dim"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "states_dim.state"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "states_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "states_dim": {
+                    "Target": {
+                      "Entity": "states_dim"
+                    }
+                  },
+                  "states_dim.state": {
+                    "Target": {
+                      "Entity": "states_dim.state"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "states_dim.state"
+                  }
+                },
+                "State": "Generated"
+              },
+              "states_dim_in_state_name": {
+                "Binding": {
+                  "ConceptualEntity": "states_dim"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "states_dim.state_name"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "states_dim"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "states_dim": {
+                    "Target": {
+                      "Entity": "states_dim"
+                    }
+                  },
+                  "states_dim.state_name": {
+                    "Target": {
+                      "Entity": "states_dim.state_name"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "states_dim.state_name"
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_MF_binary": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.MF_binary"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.MF_binary": {
+                    "Target": {
+                      "Entity": "table.MF_binary"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_decade_decade": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.decade_decade"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.decade_decade": {
+                    "Target": {
+                      "Entity": "table.decade_decade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.name"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.name": {
+                    "Target": {
+                      "Entity": "table.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_name_sex_key": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.name_sex_key"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.name_sex_key": {
+                    "Target": {
+                      "Entity": "table.name_sex_key"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_occurrence": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.occurrence"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.occurrence": {
+                    "Target": {
+                      "Entity": "table.occurrence"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_sex": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.sex"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.sex": {
+                    "Target": {
+                      "Entity": "table.sex"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_state": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.state"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.state": {
+                    "Target": {
+                      "Entity": "table.state"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "table.year"
+                      },
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.year": {
+                    "Target": {
+                      "Entity": "table.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "table_in_state": {
+                "Binding": {
+                  "ConceptualEntity": "table"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "table.state"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "table"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "table": {
+                    "Target": {
+                      "Entity": "table"
+                    }
+                  },
+                  "table.state": {
+                    "Target": {
+                      "Entity": "table.state"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "table.state"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Sample File",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Folder.Files(\"C:\\Users\\rober\\OneDrive\\PowerBI Projects\\babynames\\namesbystate\"),",
+          "    Navigation1 = Source{0}[Content]",
+          "in",
+          "    Navigation1"
+        ],
+        "kind": "m",
+        "lineageTag": "6b30eaf2-2f88-443e-a4ef-93d629237026",
+        "queryGroup": "Transform File from namesbystate\\Helper Queries"
+      },
+      {
+        "name": "Parameter1",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Sample File\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Sample File\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "75f82106-363c-4e04-8e73-66641fd6cfe4",
+        "queryGroup": "Transform File from namesbystate\\Helper Queries"
+      },
+      {
+        "name": "Transform Sample File",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Csv.Document(Parameter1,[Delimiter=\",\", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None])",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "ad407340-85ef-4b45-a373-280f949bee51",
+        "queryGroup": "Transform File from namesbystate"
+      },
+      {
+        "name": "Transform File",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = (Parameter1 as binary) => let",
+          "    Source = Csv.Document(Parameter1,[Delimiter=\",\", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None])",
+          "in",
+          "    Source",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "f887a088-077e-4316-a645-d56d4e85194d",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transform Sample File\"\"}\" ]",
+        "queryGroup": "Transform File from namesbystate\\Helper Queries"
+      },
+      {
+        "name": "Sample File (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Folder.Files(\"C:\\Users\\rober\\OneDrive\\PowerBI Projects\\babynames\\names\"),",
+          "    Navigation1 = Source{0}[Content]",
+          "in",
+          "    Navigation1"
+        ],
+        "kind": "m",
+        "lineageTag": "eb71ae15-8b2c-468d-b4de-fefaa12fcb88",
+        "queryGroup": "Transform File from names\\Helper Queries"
+      },
+      {
+        "name": "Parameter2",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Sample File (2)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Sample File (2)\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "bb3dec97-e0e7-4eb2-9618-88787171ba1d",
+        "queryGroup": "Transform File from names\\Helper Queries"
+      },
+      {
+        "name": "Transform Sample File (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Csv.Document(Parameter2,[Delimiter=\",\", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None])",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "a5412989-67cd-4b9b-b8e9-686881daa40e",
+        "queryGroup": "Transform File from names"
+      },
+      {
+        "name": "Transform File (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = (Parameter2 as binary) => let",
+          "    Source = Csv.Document(Parameter2,[Delimiter=\",\", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None])",
+          "in",
+          "    Source",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "c969587c-133a-4990-8a18-99ea05134ef3",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transform Sample File (2)\"\"}\" ]",
+        "queryGroup": "Transform File from names\\Helper Queries"
+      },
+      {
+        "name": "Decode Decade",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    fn_decadedecoder = (Year) => let ",
+          "      Decade = ",
+          "        {   {(x)=>x<1920, [Decade=\"1910s\"]}, ",
+          "            {(x)=>x<1930, [Decade=\"1920s\"]}, ",
+          "            {(x)=>x<1940, [Decade=\"1930s\"]}, ",
+          "            {(x)=>x<1950, [Decade=\"1940s\"]}, ",
+          "            {(x)=>x<1960, [Decade=\"1950s\"]}, ",
+          "            {(x)=>x<1970, [Decade=\"1960s\"]}, ",
+          "            {(x)=>x<1980, [Decade=\"1970s\"]}, ",
+          "            {(x)=>x<1990, [Decade=\"1980s\"]}, ",
+          "            {(x)=>x<2000, [Decade=\"1990s\"]}, ",
+          "            {(x)=>x<2010, [Decade=\"2000s\"]}, ",
+          "            {(x)=>x<2020, [Decade=\"2010s\"]}, ",
+          "            {(x)=>x<2030, [Decade=\"2020s\"]} ",
+          "        },",
+          "",
+          "      Result = List.First(List.Select(Decade, each _{0}(Year))){1} ",
+          "",
+          "    in ",
+          "      Result",
+          "",
+          "in",
+          "    fn_decadedecoder"
+        ],
+        "kind": "m",
+        "lineageTag": "d471fe6e-d767-40a6-9abb-f92f2c9db786"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transform File from namesbystate"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transform File from namesbystate\\Helper Queries"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "folder": "Transform File from names"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transform File from names\\Helper Queries"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "923c30f9-0ffa-4dc0-9a44-63c474a2bdae",
+        "fromColumn": "State",
+        "fromTable": "namesbystate",
+        "toColumn": "State",
+        "toTable": "states_dim"
+      },
+      {
+        "name": "955e8c69-071f-456f-bb89-aaebd97e7c4f",
+        "fromColumn": "name_sex_key",
+        "fromTable": "namesbystate",
+        "toColumn": "name_sex_key",
+        "toTable": "name_dim"
+      },
+      {
+        "name": "e1a0d173-c36a-499d-a381-7d21c8029043",
+        "fromColumn": "name_sex_key",
+        "fromTable": "names",
+        "toColumn": "name_sex_key",
+        "toTable": "name_dim"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "namesbystate",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "StateOrProvince",
+            "dataType": "string",
+            "lineageTag": "665517e0-10bd-42b5-ad5b-3c0cac252060",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sex",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "40f3b888-e241-4748-8c6a-8cc92e30b1b0",
+            "sourceColumn": "Sex",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2d3c0ee5-819b-4ea8-bea2-e94550c075a3",
+            "sourceColumn": "Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "667f077b-44b1-4747-bc16-e0924f18b538",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Occurrence",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ec98314a-d7ac-4957-a667-4f364754d67c",
+            "sourceColumn": "Occurrence",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MF_Binary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f711d82a-ef15-4d97-988e-6c898dee1bcc",
+            "sourceColumn": "MF_Binary",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Decade.Decade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "31a058e0-0c96-4d0a-a2f6-cf71d7c0370c",
+            "sourceColumn": "Decade.Decade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "name_sex_key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "1e049c47-4958-448a-981d-fb50ad01c806",
+            "sourceColumn": "name_sex_key",
+            "summarizeBy": "none"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Name Hierarchy",
+            "levels": [
+              {
+                "name": "Name",
+                "column": "Name",
+                "lineageTag": "d4249ec1-7c5e-4888-85f7-7e7bce26e688",
+                "ordinal": 0
+              },
+              {
+                "name": "Sex",
+                "column": "Sex",
+                "lineageTag": "ca4d915c-54a8-403b-bd48-159d55018905",
+                "ordinal": 1
+              }
+            ],
+            "lineageTag": "c95be030-2200-4a3b-8b35-ce8351decc0a"
+          }
+        ],
+        "lineageTag": "2e29b206-8d1c-46d6-a389-002e7c33afb5",
+        "partitions": [
+          {
+            "name": "namesbystate-0f0556e2-8a82-4871-8f87-c8d3f5ec3d3c",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Folder.Files(\"C:\\Users\\rober\\OneDrive\\PowerBI Projects\\babynames\\namesbystate\"),",
+                "    #\"Filtered Rows\" = Table.SelectRows(Source, each ([Name] <> \"StateReadMe.pdf\")),",
+                "    #\"Filtered Hidden Files1\" = Table.SelectRows(#\"Filtered Rows\", each [Attributes]?[Hidden]? <> true),",
+                "    #\"Invoke Custom Function1\" = Table.AddColumn(#\"Filtered Hidden Files1\", \"Transform File\", each #\"Transform File\"([Content])),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Invoke Custom Function1\", {\"Name\", \"Source.Name\"}),",
+                "    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Renamed Columns1\", {\"Source.Name\", \"Transform File\"}),",
+                "    #\"Expanded Table Column1\" = Table.ExpandTableColumn(#\"Removed Other Columns1\", \"Transform File\", Table.ColumnNames(#\"Transform File\"(#\"Sample File\"))),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded Table Column1\",{{\"Source.Name\", type text}, {\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", Int64.Type}, {\"Column4\", type text}, {\"Column5\", Int64.Type}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Source.Name\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns\",{{\"Column1\", \"State\"}, {\"Column2\", \"Sex\"}, {\"Column3\", \"Year\"}, {\"Column4\", \"Name\"}, {\"Column5\", \"Occurrence\"}}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Renamed Columns\", \"MF_Binary\", each if [Sex] = \"M\" then 0 else 1),",
+                "    AddedDecade = Table.AddColumn(#\"Added Custom\",\"Decade\", each #\"Decode Decade\"([Year])),",
+                "    #\"Expanded Decade\" = Table.ExpandRecordColumn(AddedDecade, \"Decade\", {\"Decade\"}, {\"Decade.Decade\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Expanded Decade\",{{\"Decade.Decade\", type text}, {\"MF_Binary\", Int64.Type}}),",
+                "    #\"Inserted Merged Column\" = Table.AddColumn(#\"Changed Type1\", \"name_sex_key\", each Text.Combine({[Name], [Sex]}, \"_\"), type text)",
+                "in",
+                "    #\"Inserted Merged Column\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_95e4b1c5-b557-486a-92ac-5c484536fabe",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "c159cba1-0069-4b80-8802-df15ea93f1ac",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9b9e52b4-7147-45fc-a2f0-99cecf43c6a2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "f3a14327-8192-420d-8967-3bf8d78e6479",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "83130d20-2ca3-4b4f-8d88-4f8204ad7386",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "8029ca31-464d-4909-81b3-d17ee824f9d6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "8a0d5d35-1bd2-4b29-b0a8-06d5b33f0539",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "06414f18-9e74-43f1-a71f-01fe9b7eb972",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "aaddf979-f180-47dc-a2ba-21e153478739",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "5946621f-b934-47af-a0a4-ade4a7f1bae2",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "be89c417-6310-4dfd-afa7-2c307a5f1b72",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "c0f8927e-2f33-4cec-b2a1-406a47f4c9fb",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c7e632c3-0c5b-49e6-999d-c0057ed72c38"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "d3076477-6227-46e2-9718-a171e9ca15f3",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_95e4b1c5-b557-486a-92ac-5c484536fabe-09c7359d-796a-4a3e-837d-14a6e47d5d2e",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0183dcfd-3319-4129-892d-3881ae0fc2c0",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sex",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "560ee76e-d6a6-4eb6-937b-2e1bfeb052f1",
+            "sourceColumn": "Sex",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "25fd905a-ce2c-41a9-be46-ea1e41092e23",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5df90731-c8c1-4874-810e-9ba358056007",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Occurrence",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7e4670f2-d32d-4986-9357-fa1babcee8b9",
+            "sourceColumn": "Occurrence",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MF_Binary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1e52a5fe-95bd-43d3-a8e9-901e4e2aa75b",
+            "sourceColumn": "MF_Binary",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "name_sex_key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "042a9bc3-b254-480a-95cc-86f3e2bea24e",
+            "sourceColumn": "name_sex_key",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "89a989ff-f7c4-4784-81be-3bde73f20614",
+        "partitions": [
+          {
+            "name": "names-3f4ee9a9-ea6e-44b5-98a2-2e59ab29a848",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Folder.Files(\"C:\\Users\\rober\\OneDrive\\PowerBI Projects\\babynames\\names\"),",
+                "    #\"Filtered Hidden Files1\" = Table.SelectRows(Source, each [Attributes]?[Hidden]? <> true),",
+                "    #\"Invoke Custom Function1\" = Table.AddColumn(#\"Filtered Hidden Files1\", \"Transform File (2)\", each #\"Transform File (2)\"([Content])),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Invoke Custom Function1\", {\"Name\", \"Source.Name\"}),",
+                "    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Renamed Columns1\", {\"Source.Name\", \"Transform File (2)\"}),",
+                "    #\"Expanded Table Column1\" = Table.ExpandTableColumn(#\"Removed Other Columns1\", \"Transform File (2)\", Table.ColumnNames(#\"Transform File (2)\"(#\"Sample File (2)\"))),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded Table Column1\",{{\"Source.Name\", type text}, {\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", Int64.Type}}),",
+                "    #\"Split Column by Positions\" = Table.SplitColumn(#\"Changed Type\", \"Source.Name\", Splitter.SplitTextByPositions({3, 7}), {\"Source.Name.1\", \"Source.Name.2\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Split Column by Positions\",{{\"Source.Name.1\", Int64.Type}, {\"Source.Name.2\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type1\",{\"Source.Name.2\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns\",{{\"Source.Name.1\", \"Year\"}, {\"Column1\", \"Name\"}, {\"Column2\", \"Sex\"}, {\"Column3\", \"Occurrence\"}}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Renamed Columns\", \"State\", each \"USA\"),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Added Custom\",{\"State\", \"Sex\", \"Year\", \"Name\", \"Occurrence\"}),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Reordered Columns\",{{\"State\", type text}}),",
+                "    #\"Added Custom1\" = Table.AddColumn(#\"Changed Type2\", \"MF_Binary\", each if [Sex] = \"M\" then 0 else 1),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Added Custom1\",{{\"MF_Binary\", Int64.Type}}),",
+                "    #\"Inserted Merged Column\" = Table.AddColumn(#\"Changed Type3\", \"name_sex_key\", each Text.Combine({[Name], [Sex]}, \"_\"), type text)",
+                "in",
+                "    #\"Inserted Merged Column\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "name_dim",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "96bd5704-b7fd-47c2-a7b5-71d8320b3eaa",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "name_sex_key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "c3d6b3bb-605b-4ce1-9df7-228b489e3055",
+            "sourceColumn": "name_sex_key",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "8a1723ba-c816-4238-a2f4-48a16aad35f1",
+        "partitions": [
+          {
+            "name": "name_dim-966e9fa3-a06d-4fc2-85a1-f30503296a52",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.Combine({namesbystate,names}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(Source,{\"State\", \"Year\", \"Sex\", \"Occurrence\", \"MF_Binary\", \"Decade.Decade\"}),",
+                "    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Columns\", {\"name_sex_key\"})",
+                "in",
+                "    #\"Removed Duplicates\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Calculated Measures",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "c45fd05b-213f-4754-8d9e-893f5f90f1d8",
+        "measures": [
+          {
+            "name": "Sum_Occurrence",
+            "expression": "SUM(namesbystate[Occurrence])",
+            "formatString": "#,0",
+            "lineageTag": "7ed5321b-a440-4874-b5e3-4eb97efee0f1"
+          },
+          {
+            "name": "Max_Occurrence",
+            "expression": "MAXX(VALUES(namesbystate[Year]),[Sum_Occurrence])",
+            "formatString": "0",
+            "lineageTag": "886509d3-5075-4006-9995-ab3b4d5ffa92"
+          },
+          {
+            "name": "M_F Binary",
+            "expression": "SUM(namesbystate[MF_Binary])",
+            "formatString": "0",
+            "lineageTag": "26b7014c-00ee-4d94-9902-11411f24ee8f"
+          },
+          {
+            "name": "Rank_Name_2020_F",
+            "expression": [
+              "",
+              "\tRANKX(",
+              "\t\tCALCULATETABLE(names,",
+              "            ALL(names),",
+              "            names[Year]=2020,",
+              "            names[Sex]=\"F\")",
+              "        ,",
+              "\t\tCALCULATE(SUM(names[Occurrence]),",
+              "        names[Year]=2020,",
+              "        names[Sex]=\"F\")",
+              "\t\t)"
+            ],
+            "formatString": "0",
+            "lineageTag": "80ff75d0-99f5-4190-a62b-980717a77dce"
+          },
+          {
+            "name": "Rank_Name_2020_M",
+            "expression": [
+              "",
+              "\tRANKX(",
+              "\t\tCALCULATETABLE(names,",
+              "            ALL(names),",
+              "            names[Year]=2020,",
+              "            names[Sex]=\"M\")",
+              "        ,",
+              "\t\tCALCULATE(SUM(names[Occurrence]),",
+              "        names[Year]=2020,",
+              "        names[Sex]=\"M\")",
+              "\t\t)"
+            ],
+            "formatString": "0",
+            "lineageTag": "210a394c-7e57-4540-a68c-54387694b91c"
+          },
+          {
+            "name": "FirstYearUsed_F",
+            "expression": "CALCULATE(MIN(namesbystate[Year]),ALL(namesbystate[Year]),namesbystate[Sex]=\"F\")",
+            "formatString": "0",
+            "lineageTag": "4eb466cc-08b4-48c9-ad93-f1c86bfc1ac7"
+          },
+          {
+            "name": "Occurrence_F",
+            "expression": "CALCULATE([Sum_Occurrence],namesbystate[Sex]=\"F\")",
+            "formatString": "0",
+            "lineageTag": "aa89a53e-4d7c-4be3-826e-c16850bfb9e7"
+          },
+          {
+            "name": "Occurrence_M",
+            "expression": "CALCULATE([Sum_Occurrence],namesbystate[Sex]=\"M\")",
+            "formatString": "0",
+            "lineageTag": "3d22bb3d-c40c-414c-9297-9afa9d1b9315"
+          },
+          {
+            "name": "FirstYearUsed_M",
+            "expression": "CALCULATE(MIN(namesbystate[Year]),ALL(namesbystate[Year]),namesbystate[Sex]=\"M\")",
+            "formatString": "0",
+            "lineageTag": "f1c75ea2-d958-4b93-94aa-b2c1fb875cee"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Calculated Measures-cf2968d6-6a0e-4c3e-9c61-976f53d3bed8",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"(blank)\" = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"(blank)\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"(blank)\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "states_dim",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6f114a9f-94af-41e2-ba5c-380aedd3db85",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State_Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb496712-80bd-4943-b7e8-6dc78d02f7ce",
+            "sourceColumn": "State_Name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "9bb72884-a49a-42ea-a2c1-48c6f054803a",
+        "partitions": [
+          {
+            "name": "states_dim-94e4dc91-80c1-466c-a121-c457e4faf82b",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\rober\\OneDrive\\PowerBI Projects\\babynames\\states_dim.xlsx\"), null, true),",
+                "    Sheet1_Sheet = Source{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Sheet1_Sheet,{{\"Column1\", type text}, {\"Column2\", type text}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"State\", type text}, {\"State_Name\", type text}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "table",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "86d63c0fb74c4e3f8919d1623ea52964"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "100bc500-26bf-4a1d-8db6-82665c70a6f4",
+            "sourceColumn": "namesbystate[State]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Sex",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "24253904-974a-4e1a-9d8c-33361c09b954",
+            "sourceColumn": "namesbystate[Sex]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "ac9d0326-a8f9-4b66-a03b-f240fa4049c8",
+            "sourceColumn": "namesbystate[Year]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "9128db7d-4d15-4f65-a7a2-6f8aa6d6539e",
+            "sourceColumn": "namesbystate[Name]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Occurrence",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "033c09f1-7d7b-4157-832f-9f27d4e22d9e",
+            "sourceColumn": "namesbystate[Occurrence]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "MF_Binary",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "bd6142c2-8e7d-487a-9d4f-b1ba9e325a86",
+            "sourceColumn": "namesbystate[MF_Binary]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Decade.Decade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "e4a14250-e295-430b-b00c-abc0e4ecf0bc",
+            "sourceColumn": "namesbystate[Decade.Decade]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "name_sex_key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "60f1a8f9-7407-4a1b-afcb-2d71493ef90c",
+            "sourceColumn": "namesbystate[name_sex_key]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "11b85bcd-407f-4e49-ad1f-42f76c384ed3",
+        "partitions": [
+          {
+            "name": "table-3bb630e2-6cfc-42c2-9d86-9199412e5059",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "CALCULATETABLE(namesbystate,",
+                "            ALL(namesbystate),",
+                "            namesbystate[Year]=2019,",
+                "            namesbystate[Sex]=\"F\")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
